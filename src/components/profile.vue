@@ -30,7 +30,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" class="label">NAME</va-lozenge>
                     </td>
                     <td class="profiledetail">
@@ -38,7 +38,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" class="label">FULL NAME</va-lozenge>
                     </td>
                     <td class="profiledetail">
@@ -46,7 +46,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" class="label">EMAIL</va-lozenge>
                     </td>
                     <td class="profiledetail">
@@ -54,7 +54,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <span><va-lozenge :uppercase="uppercase" size="sm" class="label">CLASSROOM UID</va-lozenge></span>
                     </td>
                     <td class="profiledetail">
@@ -83,34 +83,34 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" type="default" class="label">NAME</va-lozenge>
                     </td>
-                    <td class="detail_label">
+                    <td>
                       <p class="details">Pritica Aruldas</p>
                     </td>
                   </tr>
                  <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" type="default" class="label">BIRTHDAY</va-lozenge>
                     </td>
-                    <td class="detail_label">
+                    <td>
                       <p class="details" style="font-style: italic">Add Birthday</p>
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" type="default" class="label">PHONE</va-lozenge>
                     </td>
-                    <td class="detail_label">
+                    <td>
                       <p class="details" style="font-style: italic">Add a recovery phone to keep your account secure</p>
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" type="default" class="label">STATUS</va-lozenge>
                     </td>
-                    <td class="detail_label">
+                    <td>
                      <va-lozenge :uppercase="uppercase" size="sm" type="success">VERIFIED</va-lozenge>
                     </td>
                   </tr>
@@ -136,18 +136,18 @@
                 </thead>
                 <tbody>
                  <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" type="default" class="label">JOIN DATE</va-lozenge>
                     </td>
-                    <td class="detail_label">
+                    <td >
                       <p class="details">Friday,May 29th 2020</p>
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td class="detail_label">
                       <va-lozenge :uppercase="uppercase" size="sm" type="default" class="label">LAST LOGIN</va-lozenge>
                     </td>
-                    <td class="detail_label">
+                    <td >
                       <p class="details">5 hours ago</p>
                     </td>
                   </tr>
@@ -203,10 +203,10 @@ export default {
  background: transparent;
 }
 .detail_label{
-  column-width:300px;
+  width: 120px;
 }
 .profiledetail{
-  column-width:450px;
+  /* column-width:450px; */
   word-break:break-word;
   /* display: -webkit-box; */
 }
